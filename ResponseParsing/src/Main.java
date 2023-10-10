@@ -26,7 +26,6 @@ public class Main {
 
         //
         HashMap map = jsonObject;
-        System.out.println(map.toString());
         String output = generateJson(map);
         System.out.println(output);
     }
@@ -61,6 +60,6 @@ public class Main {
         root.put("order",order);
         root.put("columns",columns);
 
-return root.toString();
+        return root.toString();
     }
 }
